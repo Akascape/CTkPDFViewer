@@ -1,5 +1,7 @@
 # CTkPDFViewer
-A simple yet powerfull pdf viewer widget for customtkinter! This can be helpful for adding documentation in the form of PDFs. Users can quicky view the offline copy of your documenation.
+A simple yet powerfull pdf viewer widget for customtkinter! This can be helpful for adding `documentation` in the form of PDF for your application. 
+
+Users can quicky view the offline copy of your documenation.
 
 ## Features
 - load pdf with ease
