@@ -39,6 +39,6 @@ root.mainloop()
 | page_separation_height | vhange the _pady_ between the pages |
 | **other frame parameters | _All other ctkscrollable frame parameters can be passed_ |
 
-You can change all these parameters using the `.configure()` method. Eg: `pdf_frame.configure(file="new_file.pdf", ...)`.
+You can change all these parameters using the `.configure()` method. Eg: `pdf_frame.configure(file="new_file.pdf", ...)`
 
 That's all, hope it can help!
