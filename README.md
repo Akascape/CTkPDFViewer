@@ -29,6 +29,8 @@ pdf_frame.pack(fill="both", expand=True, padx=10, pady=10)
 root.mainloop()
 ```
 
+![example](https://github.com/Akascape/CTkPDFViewer/assets/89206401/1324243e-da47-4bd8-af46-cded53cb7b51)
+
 ## Arguments
 | Parameter | Description |
 |-----------| ------------|
