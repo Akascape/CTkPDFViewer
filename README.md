@@ -38,7 +38,7 @@ root.mainloop()
 | **file** | the PDF file you want to view |
 | page_width | **optional**, change the width of the pages |
 | page_width | **optional**, change the height of the pages |
-| page_separation_height | vhange the _pady_ between the pages |
+| page_separation_height | change the _pady_ between the pages |
 | **other frame parameters | _All other ctkscrollable frame parameters can be passed_ |
 
 You can change all these parameters using the `.configure()` method. Eg: `pdf_frame.configure(file="new_file.pdf", ...)`
