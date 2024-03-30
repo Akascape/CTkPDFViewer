@@ -81,7 +81,7 @@ class CTkPDFViewer(customtkinter.CTkScrollableFrame):
             for i in self.labels:
                 i.destroy()
             self.labels = []
-            self.after(250, self.start_pack)
+            self.after(250, self.start_process)
             
         if "page_width" in kwargs:
             self.page_width = kwargs.pop("page_width")
