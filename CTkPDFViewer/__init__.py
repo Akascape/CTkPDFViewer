@@ -9,4 +9,4 @@ Homepage: https://github.com/Akascape/CTkPDFViewer
 __version__ = '0.2'
 
 from .ctk_pdf_viewer import CTkPDFViewer
-fro .ctk_pdf_viewer_navigate import CTkPDFViewerNavigate
+from .ctk_pdf_viewer_navigate import CTkPDFViewerNavigate
