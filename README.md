@@ -25,6 +25,7 @@ from CTkPDFViewer import *
 root = customtkinter.CTk()
 root.geometry("700x600")
 pdf_frame = CTkPDFViewer(root, file="my_file.pdf")
+# pdf_frame = CTkPDFViewerNavigate(root, file="my_file.pdf") <- use this for single page widget
 pdf_frame.pack(fill="both", expand=True, padx=10, pady=10)
 root.mainloop()
 ```
