@@ -18,6 +18,7 @@ Users can quicky view the offline copy of your documentation.
 **Download the source code, paste the `CTkPDFViewer` folder in the directory where your program is present.**
 
 ## Usage
+### CTkPDFViewer
 ```python
 import customtkinter
 from CTkPDFViewer import *
@@ -25,12 +26,24 @@ from CTkPDFViewer import *
 root = customtkinter.CTk()
 root.geometry("700x600")
 pdf_frame = CTkPDFViewer(root, file="my_file.pdf")
-# pdf_frame = CTkPDFViewerNavigate(root, file="my_file.pdf") <- use this for single page widget
 pdf_frame.pack(fill="both", expand=True, padx=10, pady=10)
 root.mainloop()
 ```
 
 ![example](https://github.com/Akascape/CTkPDFViewer/assets/89206401/1324243e-da47-4bd8-af46-cded53cb7b51)
+
+### CTkPDFViewerNavigate
+```python
+import customtkinter
+from CTkPDFViewer import *
+
+root = customtkinter.CTk()
+root.geometry("700x600")
+pdf_frame = CTkPDFViewerNavigate(root, file="my_file.pdf")
+pdf_frame.pack(fill="both", expand=True, padx=10, pady=10)
+root.mainloop()
+```
+![Snimak ekrana 2025-04-07 195103](https://github.com/user-attachments/assets/cb523b0a-0d6d-4d94-9340-a481fef3d0d8)
 
 ## Arguments
 | Parameter | Description |
